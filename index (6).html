@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pranavika Srikanth</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    nav {
+      background-color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+
+    nav a:hover,
+    nav a.active {
+      background-color: #007bff;
+      color: red;
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    h2 {
+      font-size: 26px;
+      color: #333;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 8px;
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      margin-top: 20px;
+      color: #222;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    strong {
+      color: #111;
+    }
+
+    .highlight {
+      background-color: #f2f6fc;
+      padding: 15px;
+      border-radius: 8px;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .section {
+        margin: 20px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Home Section -->
+  <div class="section" id="home">
+    <h2>Home Page</h2>
+    <p>Welcome to our website! This is the home page where you can find the latest updates and information of me.</p>
+    <p>This website is built using HTML and styled with CSS, demonstrating how different parts of a website can be organized into reusable sections.</p>
+    <h3>What you'll find here:</h3>
+    <ul>
+      <li>Info About Me on the About page</li>
+      <li>Get link with me through the Contact page</li>
+      <li>Navigate easily using the navigation bar above</li>
+    </ul>
+  </div>
+
+  <!-- About Section -->
+  <div class="section" id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Pranavika Srikanth</strong>, a passionate student,who exploring in the exciting world of technology and artificial intelligence.</p>
+
+    <h3>Education</h3>
+    <p>I'm currently pursuing my 2nd year B.Tech in Artificial Intelligence & Data Science at <strong>Dhaanish Ahmed College of Engineering (DACE)</strong>, Tamil Nadu.</p>
+
+    <h3>My Journey</h3>
+    <p>As a student in AI & Data Science, I'm fascinated by how technology can solve real-world problems and make a positive impact on today's world.</p>
+
+    <h3>Areas of Interest</h3>
+    <ul>
+      <li>Artificial Intelligence</li>
+      <li>Data Science & Analytics</li>
+      <li>Web Development</li>
+      <li>Machine Learning</li>
+      <li>Marketing and Creative Projects</li>
+    </ul>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section" id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to get in touch with me! I'm always open to connecting with fellow students, professionals, and anyone interested in technology.</p>
+
+    <div class="highlight">
+      <h3>Contact Information</h3>
+      <p><strong>Name:</strong> Pranavika Srikanth</p>
+      <p><strong>Email:</strong> pranavikasrikanth05@gmail.com</p>
+      <p><strong>Location:</strong> Chennai, Tamil Nadu </p>
+      <p><strong>College:</strong> Dhaanish Ahmed College of Engineering (DACE)</p>
+      <p><strong>Course:</strong> B.Tech in AI & Data Science (2nd Year)</p>
+    </div>
+
+    <h3>I'm always excited to discuss:</h3>
+    <ul>
+      <li>AI and Data Science projects</li>
+      <li>Web development and frontend design</li>
+      <li>Learning opportunities and collaborations</li>
+    </ul>
+  </div>
+
+</body>
+</html>
